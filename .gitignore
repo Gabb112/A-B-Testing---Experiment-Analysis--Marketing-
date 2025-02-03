@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.env
+build/
+dist/
+*.egg-info
+*.egg
+
+# User-specific files
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.idea
+*.log
+
+# Data files (optional, if large)
+data
+data/raw/*
+data/processed/*
+
+# Python environment
+ab_testing_venv/
+*.env
+
+# OS generated files
+Thumbs.db
+*.pyi
