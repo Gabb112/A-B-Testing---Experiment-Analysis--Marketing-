@@ -1,7 +1,7 @@
 import pandas as pd
-from data_loader import DataLoader
-from stats_utils import StatsUtils
-from visualization import Visualization
+from .data_loader import DataLoader
+from .stats_utils import StatsUtils
+from .visualization import Visualization
 import os
 
 

@@ -76,4 +76,4 @@ class StatsUtils:
         group_b = data[data[group_col] == "psa"][outcome_col]
 
         t_statistic, p_value = stats.ttest_ind(group_a, group_b, equal_var=False)
-        return t_statistic, p_value, p_value < alpha
+        return t_statistic, p_value, bool(p_value < alpha)
